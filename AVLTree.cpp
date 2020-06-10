@@ -1,4 +1,7 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
+#include <climits>
+#include <cmath>
 using namespace std;
 
 class Node
@@ -231,7 +234,7 @@ int main()
     printPreOrder(root);
 
     root = deleteNode(root, 5);
-
+    cout << endl;
     printPreOrder(root);
     return 0;
 }

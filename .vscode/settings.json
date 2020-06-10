@@ -2,5 +2,10 @@
     "files.associations": {
         "iostream": "cpp",
         "random": "cpp"
-    }
+    },
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontFamily": "Consolas, 'Courier New'",
+    "workbench.editor.openSideBySideDirection": "down",
+    "files.autoSaveDelay": 500,
+    "editor.wordWrap": "on"
 }

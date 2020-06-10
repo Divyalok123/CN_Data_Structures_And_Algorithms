@@ -1,4 +1,12 @@
-#include <bits/stdc++.h>
+// Given a NxM matrix containing Uppercase English Alphabets only. Your task is to tell if there is a path in the given matrix which makes the sentence “CODINGNINJA” .
+// There is a path from any cell to all its neighbouring cells. A neighbour may share an edge or a corner.
+
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <string>
+#include <cstring>
+#include <queue>
 using namespace std;
 #define MAXN 102
 

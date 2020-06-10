@@ -16,30 +16,28 @@ For eg. Input : {1, 2}, then output should contain
 Don’t print the subsets, just save them in output.
 ***/
 
-
-int subset(int input[], int n, int output[][20]) {
-    if(n == 0)
+int subset(int input[], int n, int output[][20])
+{
+    if (n == 0)
     {
         output[0][0] = NULL;
         return 1;
     }
-    
-    int res = subset(input + 1, n-1, output);
-    
-    for(int i = 0; i < res; i++)
+
+    int res = subset(input + 1, n - 1, output);
+
+    for (int i = 0; i < res; i++)
     {
-        output[i+res][0] = output[i][0] + 1;
-        output[i+res][1] = input[0];
-        for(int j = 2; j < output[i+res][0]+2; j++)
+        output[i + res][0] = output[i][0] + 1;
+        output[i + res][1] = input[0];
+        for (int j = 2; j < output[i + res][0] + 1; j++)
         {
-            output[i+res][j] = output[i][j-1];
+            output[i + res][j] = output[i][j - 1];
         }
     }
-    
-    return res*2;
+
+    return res * 2;
 }
-
-
 
 int main()
 {

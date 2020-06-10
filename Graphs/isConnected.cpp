@@ -1,3 +1,7 @@
+// Given an undirected graph G(V,E), check if the graph G is connected graph or not.
+// V is the number of vertices present in graph G and vertices are numbered from 0 to V-1.
+// E is the number of edges present in graph G.
+
 #include <iostream>
 #include <climits>
 #include <queue>

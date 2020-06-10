@@ -1,3 +1,8 @@
+// Given an undirected, connected and weighted graph G(V, E) with V number of vertices (which are numbered from 0 to V-1) and E number of edges.
+// Find and print the shortest distance from the source vertex (i.e. Vertex 0) to all other vertices (including source vertex also) using Dijkstra's Algorithm.
+// Print the ith vertex number and the distance from source in one line separated by space. Print different vertices in different lines.
+// Note : Order of vertices in output doesn't matter.
+
 #include <iostream>
 #include <climits>
 #include <algorithm>
