@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "xstring": "cpp"
     },
     "terminal.integrated.fontFamily": "monospace",
     "editor.fontFamily": "Consolas, 'Courier New'",
