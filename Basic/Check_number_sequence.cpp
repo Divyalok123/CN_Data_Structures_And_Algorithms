@@ -2,7 +2,8 @@
 // That is, in the sequence if numbers are decreasing, they can start increase at one point. And once number starts increasing, they cannot decrease at any point further.
 // Sequence made up of only increasing numbers or only decreasing numbers is a valid sequence. So in both the cases, print true.
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
 int main()
@@ -10,7 +11,7 @@ int main()
 	int n;
 	bool valid = true;
 	cin >> n;
-	int arr[n];
+	int* arr = new int[n];
 	for (int i = 0; i < n; i++)
 	{
 		cin >> arr[i];
